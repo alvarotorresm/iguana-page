@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "raleway", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+}
+span {
+  color: darkgreen;
+}
+.ighead {
+  width: 100%;
+}
+
+.desc-section {
+  margin: auto;
+  width: 75%;
+  padding: 3rem 0;
+  /* vertical-align: middle; */
+}
+
+.texto {
+  display: inline-block;
+  width: 50%;
+  padding: 2rem;
+  vertical-align: middle;
+}
+.texto p {
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+.desc-img {
+  display: inline-block;
+  width: 35%;
+  vertical-align: middle;
+}
+
+.icon-section {
+  padding: 3rem 0;
+  background-color: #1e1a13;
+  text-align: center;
+  opacity: 0.98;
+}
+
+.icon-section h2 {
+  margin: 1rem;
+  padding: 2rem;
+  font-size: 40px;
+}
+
+.icono {
+  display: inline-block;
+  width: 22%;
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.centrado {
+  vertical-align: middle;
+  width: 100%;
+}
+.centrado-fotos {
+  padding: 3rem 0.5rem;
+  display: inline-block;
+}
+.centrado-fotos img {
+  /*medidas según maqueta*/
+  width: 316px;
+  height: 202px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 1rem;
+}
